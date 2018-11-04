@@ -26,19 +26,17 @@ hs_err_pid*
 .DS_Store
 
 # IntelliJ
-.idea/shelf
-.idea/libraries/Gradle*.xml
-.idea/libraries/Maven*.xml
-.idea/artifacts
-.idea/modules
-.idea/runConfigurations/JPS_*.xml
-.idea/libraries
-.idea/modules.xml
-.idea/gradle.xml
-.idea/compiler.xml
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/.name
+.idea/
+out/
+*.iml
+local.properties
 
 # Gradle
 .gradle
 build/
+
+# vim
+*.sw?
+
+# generated code
+.teamcity
